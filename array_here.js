@@ -1,9 +1,11 @@
-// Insert a LaTeX array with m lines and n columns
 
-var n = kile.input.getPosInteger("Enter Value",
-                                 "Please enter the number of columns:");
-var m = kile.input.getPosInteger("Enter Value",
-                                  "Please enter the number of lines:");
+//var n = kile.input.getPosInteger("Enter Value",
+                                 //"Please enter the number of columns:");
+//var m = kile.input.getPosInteger("Enter Value",
+                                  //"Please enter the number of lines:");
+
+var n = 3;
+var m = 3;
 
 var cursor = view.cursorPosition();
 
